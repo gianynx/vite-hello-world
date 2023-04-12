@@ -1,10 +1,12 @@
 <template>
+    <AppTitle />
     <div>
         <div class="hero-image"></div>
     </div>
 </template>
 
 <script>
+    import AppTitle from './AppTitle.vue';
     export default {
         name: 'AppHero',
         data() {
